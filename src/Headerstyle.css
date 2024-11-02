@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+.title {
+    color: blue;
+    text-align: left; /* Moves the h1 text to the left */
+    font-family: 'Roboto', sans-serif; /* Apply the custom font */
+    font-size: 1em;
+  }
+
+  .body{
+      background-color: teal;
+      
+  }
