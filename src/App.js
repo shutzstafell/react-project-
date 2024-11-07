@@ -1,16 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-
-import Header from './Header';
+import Post from './Post';
+import Header  from './Header';
+import button from './Header';
 
 function App() {
   return (
-    <div>
-      <div>
+    <div classNam="App">
+      
+        {/* header container */}
         <Header/>
-      </div>
-      <div>
         
+
+      
+
+      {/* this i s the post container */}
+      <div>
+       <button/>
+      </div>
+  {/*the Post container  */}
+      <div style={{display:"flex"}}>
+        <Post />
+        <Post />
+        <Post />
       </div>
     </div>
   );

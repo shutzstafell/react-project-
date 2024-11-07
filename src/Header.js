@@ -9,10 +9,18 @@ function Header(){
      fontSize:"30px",
      color:'black',
      fontFamily:'cursive'}}>
-        <p> Welcome to Rubber store.<br/> for cyber security . </p>
+        <p> join us  and start learn to creat your first web site</p>
         
-        
-    </div>
+    </div>);}
+        function button (){
+            return(
+      
+        <div>
+        <button className="button">Home</button>
+        <button className="button">Profile </button>
+        <button className="button "> setting</button>
+        </div>
+            
 );
 }
 
